@@ -1,0 +1,264 @@
+/* General Styling */
+.resume-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #ffffff;
+  height: 945px; /* ตั้งค่าความสูงขั้นต่ำ */
+}
+  /* Header Section */
+  .header {
+    display: flex; /* ทำให้เรียงในแนวเดียวกัน */
+    align-items: center;
+    background-color: #4e4e4e;
+    color: white;
+    height: 400px; /* ปรับความสูงเป็น 400px */
+    max-width: 100%;
+    width: 1910px;
+}
+
+  .experience-box {
+    background-color: #3d3d3d; /* สีพื้นหลัง */
+    color: white; /* เปลี่ยนสีข้อความให้ตรงกัน */
+    padding: 10px 50px; /* เพิ่ม padding เพื่อความสวยงาม */
+    font-weight: bold; /* ทำให้ตัวหนา */
+    font-size: 1.5em; /* ปรับขนาดฟอนต์ให้ใหญ่ขึ้น */
+    display: flex; /* ทำให้กล่องมีความยาวเต็ม */
+    margin-bottom: -20px;
+    margin-top: 50px;
+    height: 148px;
+    line-height: 5;
+    width: 1200px;
+    margin-right: 25px;
+    margin-left: -10px;
+    max-width: 100%;
+  }
+  
+  
+  .profile-photo img {
+    width: 450px; /* กำหนดขนาดให้ใหญ่ขึ้น */
+    height: 495px; /* กำหนดขนาดให้ใหญ่ขึ้น */
+    margin-right: 10px;
+}
+ 
+  
+  .profile-info h1 {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: #ffffff; /* สีสำหรับชื่อ */
+    margin-left: 40px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    
+  }
+  
+  .profile-info p {
+    font-size: 1.2em;
+    color: #ffffff; /* สีสำหรับข้อความย่อย */
+    margin-bottom: -10px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  
+  
+  /* Menu Section */
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 18px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 16px;
+}
+
+
+.menu-item {
+  background-color: #0f9d58;
+  color: white;
+  padding: 30px 40px; /* ลด padding ด้านบนและล่าง */
+  cursor: pointer;
+  text-transform: uppercase; /*ปรับขนาดฟอนต์เป็นพิมพ์ใหญ่ทั้งหมด*/
+  font-weight: bold;
+  text-align: center;
+  margin-left: -10px; /* ปรับระยะห่างด้านซ้าย */
+  margin-bottom: 15px;
+  font-size: 20px; /* ปรับขนาดฟอนต์ที่นี่ */
+}
+
+.menu-icon {
+  width: 50px; /* ปรับเพิ่มความกว้างของไอคอน */
+  height: 50px; /* ปรับเพิ่มความสูงของไอคอน */
+  margin-bottom: 10px; /* เพิ่มระยะห่างขวาระหว่างไอคอนและข้อความ */
+  margin-left: 45px;
+  margin-right: 25px;
+}
+
+
+  .menu-item:nth-child(1) { background-color: #01bd9b; }
+  .menu-item:nth-child(2) { background-color: #0099de; }
+  .menu-item:nth-child(3) { background-color: #af58ba; }
+  .menu-item:nth-child(4) { background-color: #ff7f0c; }
+  .menu-item:nth-child(5) { background-color: #ff4b3a; }
+  .menu-item:nth-child(6) { background-color: #eaa900; }
+  
+  .menu-item:hover {
+    opacity: 0.8;
+  }
+  
+  /* Content Section */
+  .content {
+    padding: 20px; /* ลดขนาด padding ให้พอดี */
+    display: flex;
+    max-width: 1870px; /* กำหนดความกว้างสูงสุด */
+  }
+  
+  .info-section {
+    padding: 15px; /* ลดขนาด padding ให้พอดี */
+  }
+  
+  
+  .info-section p2 {
+    color: #ff8b81;
+    font-size: 1.0em;
+    font-weight: 900;
+  }
+  
+  .info-section h2 {
+    color: #303030;
+    font-size: 1.8em;
+    margin-top: 45px;
+    font-weight: 900;
+  }
+  .description {
+    font-size: 18px; /* ปรับขนาดฟอนต์ */
+    color: #ff9187; /* กำหนดสีของข้อความ */
+    margin: 10px 0; /* เพิ่มระยะห่างด้านบนและล่าง */
+    font-weight: bolder; /* เปลี่ยนเป็นฟอนต์น้ำหนักปกติ */
+  }
+  
+  
+
+  .feature-group {
+    display: flex;                  /* ใช้ flexbox เพื่อจัดเรียงฟีเจอร์ในแนวนอน */
+    margin-right: 0px;
+    margin-left: 60px;
+}
+
+.feature {
+    display: flex;                  /* ใช้ flexbox ในการจัดเรียงไอคอนและข้อความ */
+    align-items: center;            /* จัดให้อยู่ในแนวกลางทางแนวตั้ง */
+    
+}
+
+.feature-icon {
+    width: 40px;                   /* กำหนดขนาดของไอคอน */
+    height: auto;                  /* รักษาสัดส่วนของภาพ */
+    margin-right: 20px;           /* เพิ่มระยะห่างระหว่างรูปภาพกับข้อความ */
+    margin-left: 10px ;
+    margin-top: -80px;
+}
+
+.feature-text h3 {
+  font-size: 1em;
+  margin: 0; /* ตั้งค่า margin เริ่มต้นเป็น 0 */
+  margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่างของหัวข้อ */
+  margin-top: 70px;
+  font-weight: 900;
+}
+
+.feature-description  {
+    font-size: 0.9em;              /* ขนาดฟอนต์สำหรับคำอธิบาย */
+    color: #a5a0a0;                   /* สีของคำอธิบาย */
+    word-wrap: break-word;        /* ให้คำอธิบายแบ่งบรรทัดเมื่อยาวเกิน */
+    margin-top:  5px; /* เพิ่มระยะห่างด้านบนของหัวข้อ */
+    max-width: 250px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+  /* Personal Info Section */
+  .personal-info {
+    background-color: #efefef; /* สีพื้นหลัง */
+    padding: 0px 0px; /* ลดขนาด padding ให้พอดี */
+    margin-top: 25px; /* เพิ่มระยะห่างด้านบน */
+    width: 750px; /* ความกว้างที่กำหนด */
+    position: relative; /* ใช้ relative position */
+    margin-left:100px;
+    margin-right: -20px;
+    width: 740px;
+    height: 490px;
+}
+
+.personal-info h2 {
+  color: #333;
+  font-size: 1.8em;
+
+  line-height: 3; /* คุณสามารถปรับเพิ่มหรือลดค่าได้ */
+  margin-left: 60px; /* เพิ่ม margin ด้านซ้ายเพื่อขยับทั้งหมดไปทางขวา */
+  margin-top: 20px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between; /* จัดวางตำแหน่งให้แยกซ้ายขวา */
+  align-items: flex-start;
+  margin-bottom: 10px; /* เพิ่มระยะห่างระหว่างแถว */
+  margin-left: 60px; /* เพิ่ม margin ด้านซ้ายเพื่อขยับทั้งหมดไปทางขวา */
+}
+
+.info-row strong {
+  min-width: 120px; /* ความกว้างคงที่สำหรับ label เช่น BIRTH DATE, ADDRESS */
+  line-height: 2.5; /* เพิ่มระยะห่างระหว่างบรรทัด */
+  
+}
+
+.info-row span {
+  flex-grow: 1; /* ยืดตามพื้นที่ที่เหลือ */
+  text-align: left;
+  margin-left: 50px; /* เพิ่มระยะห่างจาก strong */
+  line-height: 2.5; /* เพิ่มระยะห่างระหว่างบรรทัด */
+  color: #acaaaa;
+}
+
+.info-row span br {
+  margin-top: 10px; /* เพิ่มระยะห่างระหว่างบรรทัดในกรณีมี br */
+}
+
+.upload-button {
+  background-color: #454545; /* สีพื้นหลัง */
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: -285px;
+  margin-left: -240px;
+  margin-right: 0px;
+  height: 215px;
+  width: 250px;
+  margin-bottom: -35px;
+  border: 3px solid #454545; /* กำหนดความหนาและสีกรอบ */
+}
+
+.upload-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.be-button {
+  background-color: #383838; /* สีพื้นหลัง */
+  cursor: pointer;
+  margin-top: 26px;
+  margin-left: -221px;
+  width: 255px;
+  height: 167px;
+   /* เพิ่มกรอบ */
+  border: 3px solid #383838; /* กำหนดความหนาและสีกรอบ */
+}
+
+.be-icon{
+  width: 70px;
+  height: 70px;
+}
+
+
+
+  
+  
